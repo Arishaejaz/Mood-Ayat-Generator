@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamic Ayats by Mood</title>
+    <link rel="stylesheet" href="Ayat.css">
+    <script defer src="script.js"></script>
+   
+</head>
+<body>
+   
+
+    <div class="container">
+        <header>
+            <h1>Islamic آیت by Mood</h1>
+
+            
+        </header>
+        
+        <main>
+            <div class="mood-selector">
+                <label for="mood">Select your mood:</label>
+                <select id="mood">
+                    <option value="gratitude">Feeling Grateful</option>
+                    <option value="sad">Feeling Sad</option>
+                    <option value="hope">Need Hope</option>
+                    <option value="lost">You are Lost</option>
+                </select>
+                <button id="generateAyat">Show Ayat</button>
+            </div>
+            
+            <div id="ayatDisplay" class="ayat-display hidden">
+                <p id="ayatText">"And He found you lost and guided [you]." (Quran 93:7)</p>
+            </div>
+        </main>
+
+
+    </div>
+
+   </body>
+</html>
